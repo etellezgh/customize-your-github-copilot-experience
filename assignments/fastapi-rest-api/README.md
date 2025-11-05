@@ -1,33 +1,40 @@
+
 # 📘 Assignment: Building REST APIs with FastAPI
 
 ## 🎯 Objective
 
-Learn how to build and test a simple REST API using the FastAPI framework in Python. Practice designing endpoints, handling requests, and returning JSON responses.
+Learn how to design, build, and test RESTful APIs using the FastAPI framework in Python.
 
 ## 📝 Tasks
 
-### 🛠️ Task 1: Set Up FastAPI Project
+### 🛠️ Project Setup & First Endpoint
 
 #### Description
-Set up a new Python project and install FastAPI and Uvicorn. Create a basic FastAPI app with a root endpoint that returns a welcome message.
+Set up a new FastAPI project and create your first API endpoint.
 
 #### Requirements
 Completed program should:
 
-- Have a `main.py` file with a FastAPI app
-- Include a root endpoint (`/`) that returns a JSON welcome message
-- Use Uvicorn to run the app locally
+- Install FastAPI and Uvicorn
+- Create a main Python file with a FastAPI app
+- Implement a simple GET endpoint (e.g., `/hello`) that returns a welcome message
 
-### 🛠️ Task 2: Create REST Endpoints
+### 🛠️ CRUD Operations for a Resource
 
 #### Description
-Add endpoints to your FastAPI app to manage a list of items (e.g., books, tasks, or products). Implement GET and POST methods.
+Build a REST API to manage a resource (e.g., books, students, or tasks) with full CRUD (Create, Read, Update, Delete) functionality.
 
 #### Requirements
 Completed program should:
 
-- Have an endpoint to list all items (GET)
-- Have an endpoint to add a new item (POST)
-- Return appropriate JSON responses for each endpoint
-- Validate input data for the POST request
+- Define a Pydantic model for your resource
+- Implement endpoints for creating, reading, updating, and deleting resource items
+- Return appropriate HTTP status codes and error messages
+
+---
+
+**Tips:**
+- Use clear code comments and meaningful variable names.
+- Test your API using a tool like curl, httpie, or Postman.
+- Write your code in a student-friendly, well-documented style.
 
